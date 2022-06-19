@@ -21,7 +21,7 @@
                 <div class="login_form_inner">
                     <h3>Créer un compte !</h3>
                     <form class="row login_form" id="contactForm" novalidate="novalidate" method="POST" action="{{ route('register') }}">
-                        {{ csrf_field() }}
+                        <!-- {{ csrf_field() }} -->
 
                         <!-- Name -->
                         <div class="col-md-12 form-group{{ $errors->has('name') ? ' has-error' : '' }}">
